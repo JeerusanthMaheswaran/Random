@@ -1,83 +1,39 @@
-# JM Digital Growth — Portfolio post captions
+# JM Digital Growth — Portfolio posts
 
-## Post 1 — Transport (Kaja Transport Ltd.) · `1_transport.png`
+## Post 1 — `post1_websites_ive_built.png`
 
-🚛 New project: Kaja Transport Ltd.
+Websites I've built 💻✨
 
-Kaja Transport moves flatbed and LTL freight across the GTA and Ontario, and now they have a website built to match.
+Here's some of my recent work for local businesses:
 
-What we built:
-📝 A 3-step quote form, so shippers can request a quote in under a minute
-💬 WhatsApp and tap-to-call buttons on every screen
-🚚 Clear service and equipment sections: flatbeds, step decks, roll-tites, Moffett offloading
-📱 Mobile-first design for dispatchers and drivers on the go
-🌐 Custom domain setup
+🚛 **Transport & Logistics**
+A bold, professional site with a 3-step quote form, WhatsApp and tap-to-call buttons, and a clean layout for services and equipment.
 
-Trucking, logistics or any service business, your customers are searching online. Let's make sure they find you.
+🍗 **Restaurant**
+A colourful, flavour-packed site with the full menu, one-tap online ordering, hours that update for each day, and directions.
 
-💬 DM us to get started.
+Every site is built mobile-first, because that's where your customers are looking 📱
 
-#JMDigitalGrowth #WebDesign #TruckingCompany #Logistics #TorontoBusiness #GTA #SmallBusiness #WebsiteDesign #Flatbed #Ontario
+Want one for your business? 💬 DM me to get started.
 
----
-
-## Post 2 — Automotive (concept) · `2_automotive.png`
-
-🔧 Concept design: Torque Auto Care
-
-What could a modern website look like for an auto repair shop? We designed this concept to show you.
-
-✅ Online booking: pick a service, pick a time, done
-✅ A clear service menu: oil changes, tires, brakes, diagnostics, detailing
-✅ One-tap calling for customers who'd rather talk
-✅ Fast and mobile-first, because most people book from their phone
-
-Own a garage, tire shop or detailing business? We'll build one like this for your brand.
-
-💬 DM us to get started.
-
-*Concept design. Torque Auto Care is a sample brand made for our portfolio.*
-
-#JMDigitalGrowth #AutoRepair #AutoShop #CarDetailing #Mechanic #WebDesign #SmallBusiness #WebsiteDesign #Automotive #TorontoBusiness
+#JMDigitalGrowth #WebDesign #WebsiteDesign #SmallBusiness #LocalBusiness #WebDeveloper #Portfolio #TorontoBusiness #RestaurantWebsite #Logistics
 
 ---
 
-## Post 3 — Résumé / personal portfolio (concept) · `3_resume.png`
+## Post 2 — `post2_more_recent_work.png`
 
-💼 Your résumé, as a website.
+More recent work 🚀
 
-A PDF gets skimmed. A personal website gets remembered.
+Two more websites I've designed:
 
-This concept shows what we can build for job seekers, freelancers and professionals:
-📄 Downloadable résumé in one click
-💼 Experience, skills and education laid out clearly
-🔗 Links to LinkedIn and your best work
-📱 Looks sharp on every phone, so it's perfect for your email signature and LinkedIn profile
+🔧 **Automotive**
+A sleek, dark-themed site for an auto repair shop, with online booking, a clear service menu and one-tap calling.
 
-Stand out to recruiters with your own corner of the internet.
+💼 **Résumé Portfolio**
+A personal website that turns a résumé into something recruiters remember, with a one-click résumé download, skills and experience, and LinkedIn links.
 
-💬 DM us to get started.
+Business owner or job seeker, I can build a website that makes you stand out 🙌
 
-*Concept design. "Maya Chen" is a sample profile made for our portfolio.*
+💬 DM me to get started.
 
-#JMDigitalGrowth #Resume #PersonalBranding #JobSearch #Portfolio #CareerTips #Hiring #WebDesign #PersonalWebsite #Freelancer
-
----
-
-## Post 4 — Restaurant (Big Momma's Soul Food) · `4_restaurant.png`
-
-🇯🇲🍗 New project: Big Momma's Soul Food
-
-Real Jamaican soul food deserves a website with just as much flavour. We built Big Momma's a bold, colourful site that feels just like walking up to their red sign on Simcoe Rd in Bradford.
-
-What's inside:
-🍗 The full menu: jerk chicken, oxtail, curry goat, roti and more
-🛵 Order on Uber Eats in one tap
-🕒 Opening hours that highlight today's times automatically
-📍 Directions and tap-to-call
-
-Restaurant, café or food truck? Let's get your menu in front of hungry customers.
-
-💬 DM us to get started.
-
-#JMDigitalGrowth #RestaurantWebsite #JamaicanFood #SoulFood #BradfordON #SupportLocal #WebDesign #SmallBusiness #FoodBusiness #Ontario
+#JMDigitalGrowth #WebDesign #AutoShop #AutoRepair #PersonalBranding #ResumeTips #PortfolioWebsite #JobSearch #SmallBusiness #WebDeveloper
