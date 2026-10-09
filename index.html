@@ -204,6 +204,35 @@ footer a:hover{color:#fff}
 @media(max-width:900px){.f-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.f-grid{grid-template-columns:1fr}}
 
+/* Reviews */
+.reviews{background:var(--bg-2)}
+.reviews .top{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap}
+.g-score{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:16px 20px}
+.g-score b{font:800 34px/1 Archivo,sans-serif}
+.g-score small{display:block;color:var(--ink-3);font-size:13.5px}
+.stars{color:#f4b400;letter-spacing:2px;font-size:16px;line-height:1}
+.rv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.rv{background:#fff;border:1px solid var(--line);border-radius:6px;padding:26px;display:flex;flex-direction:column}
+.rv p{color:var(--ink-2);font-size:15.5px;margin:14px 0 20px}
+.rv .who{margin-top:auto;display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:16px}
+.rv .av{width:38px;height:38px;border-radius:50%;background:var(--black);color:#fff;display:grid;place-items:center;font:700 15px Archivo,sans-serif;flex:none}
+.rv .who b{display:block;font:600 15px/1.2 Archivo,sans-serif}
+.rv .who small{color:var(--ink-3);font-size:13px}
+.rv-more{margin-top:28px;text-align:center}
+@media(max-width:960px){.rv-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.rv-grid{grid-template-columns:1fr}}
+
+/* FAQ */
+.faq .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:22px 0;font:600 18px/1.35 Archivo,sans-serif}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 26px/1 Archivo,sans-serif;color:var(--red);flex:none}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{color:var(--ink-2);padding:0 40px 22px 0;font-size:16px}
+@media(max-width:900px){.faq .wrap{grid-template-columns:1fr;gap:32px}}
+
 /* WhatsApp float */
 .wa-float{position:fixed;right:20px;bottom:20px;z-index:50;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.22);transition:background .15s}
 .wa-float:hover{background:var(--wa-dark)}
@@ -237,6 +266,8 @@ footer a:hover{color:#fff}
       <a href="#services">Services</a>
       <a href="#equipment">Equipment</a>
       <a href="#about">About</a>
+      <a href="#reviews" data-reviews-link hidden>Reviews</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="h-cta">
@@ -370,6 +401,39 @@ footer a:hover{color:#fff}
   </div>
 </div>
 
+<section class="reviews" id="reviews" hidden>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <span class="label">Reviews</span>
+        <h2 class="h2">What our customers say</h2>
+      </div>
+      <div class="g-score"><b id="rvAvg">5.0</b><div><div class="stars" id="rvStars">★★★★★</div><small id="rvCount">Google reviews</small></div></div>
+    </div>
+    <div class="rv-grid" id="rvGrid"></div>
+    <div class="rv-more"><a class="btn btn-line-dark" data-google href="#" target="_blank" rel="noopener">Read all reviews on Google</a></div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div>
+      <span class="label">FAQ</span>
+      <h2 class="h2">Common questions</h2>
+      <p class="intro">Can't find what you're looking for? Message our dispatch on WhatsApp and we'll answer right away.</p>
+    </div>
+    <div>
+      <details open><summary>What areas do you serve?</summary><p>We provide TL and LTL service to and from all points in the GTA and Ontario, with most of our work across the Greater Toronto Area and Southern Ontario.</p></details>
+      <details><summary>Do you take partial loads, or only full truckloads?</summary><p>Both. We run full truckloads and LTL. LTL shipments are palletized before loading and fully secured, from warehouse pickups through to in-store delivery.</p></details>
+      <details><summary>What kind of freight do you haul?</summary><p>We handle all kinds of merchandise, with particular expertise in construction equipment, scaffolding and building supplies.</p></details>
+      <details><summary>What if there's no forklift or loading dock at delivery?</summary><p>We've got it covered. We offer Moffett (truck-mounted forklift) service, straight trucks with tailgates, and pallet jacks or hand assistance to get your cargo off the truck and where it needs to be.</p></details>
+      <details><summary>Can you do same-day or urgent deliveries?</summary><p>Yes. Our expedited service covers same-day, next-day and time-specific delivery, and dispatch is on standby 24/7 for emergencies.</p></details>
+      <details><summary>Do you offer storage?</summary><p>Yes. Through licensed third-party warehouses we store skidded loads and LTL cargo.</p></details>
+      <details><summary>How do I get a quote?</summary><p>Fill in the quote form at the top of this page, message us on WhatsApp, call <a data-tel href="#" data-phone style="color:var(--red);font-weight:600">647-892-1366</a> or email us with your origin, destination and load details.</p></details>
+    </div>
+  </div>
+</section>
+
 <div class="cta">
   <div class="wrap">
     <div><h2>Get a quote today</h2><p>Send us your load details and our dispatch team will get back to you quickly.</p></div>
@@ -414,7 +478,7 @@ footer a:hover{color:#fff}
         <p class="blurb">Flatbed and LTL trucking based in Toronto, serving the GTA and Southern Ontario since 2015.</p>
       </div>
       <div><h4>Services</h4><ul><li><a href="#services">LTL &amp; Flatbed LTL</a></li><li><a href="#services">Curtainside LTL</a></li><li><a href="#services">Expedited</a></li><li><a href="#services">Inside store delivery</a></li><li><a href="#services">Warehousing</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="#about">About us</a></li><li><a href="#equipment">Equipment</a></li><li><a href="#contact">Contact</a></li><li><a href="#top">Get a quote</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#about">About us</a></li><li><a href="#equipment">Equipment</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li><li><a data-google href="#" target="_blank" rel="noopener">Google reviews</a></li><li><a href="#top">Get a quote</a></li></ul></div>
       <div><h4>Contact</h4><ul>
         <li><a data-tel href="#">Phone: <span data-phone>647-892-1366</span></a></li>
         <li><a data-wa href="#" target="_blank" rel="noopener">WhatsApp: <span data-phone>647-892-1366</span></a></li>
@@ -438,6 +502,28 @@ const CONFIG = {
   email: "kajatransportltd@hotmail.com",
   waGreeting: "Hi Kaja Transport, I'd like a quote for a shipment."
 };
+
+/* Google reviews — paste real reviews here, copied from your Google Business Profile.
+   The Reviews section stays hidden until at least one review is added.
+   Example: { name: "Customer Name", rating: 5, date: "2 months ago", text: "Review text..." } */
+const REVIEWS = [
+];
+const GOOGLE_REVIEWS_URL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("Kaja Transport Ltd Toronto");
+
+document.querySelectorAll('[data-google]').forEach(a => a.href = GOOGLE_REVIEWS_URL);
+if (REVIEWS.length) {
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const stars = n => '★★★★★'.slice(0, Math.round(n)) + '☆☆☆☆☆'.slice(0, 5 - Math.round(n));
+  const avg = REVIEWS.reduce((t, r) => t + r.rating, 0) / REVIEWS.length;
+  document.getElementById('rvAvg').textContent = avg.toFixed(1);
+  document.getElementById('rvStars').textContent = stars(avg);
+  document.getElementById('rvCount').textContent = `Based on ${REVIEWS.length} Google review${REVIEWS.length > 1 ? 's' : ''}`;
+  document.getElementById('rvGrid').innerHTML = REVIEWS.map(r => `
+    <div class="rv"><div class="stars">${stars(r.rating)}</div><p>${esc(r.text)}</p>
+      <div class="who"><span class="av">${esc(r.name.trim()[0].toUpperCase())}</span><div><b>${esc(r.name)}</b><small>Google review${r.date ? ' · ' + esc(r.date) : ''}</small></div></div></div>`).join('');
+  document.getElementById('reviews').hidden = false;
+  document.querySelector('[data-reviews-link]').hidden = false;
+}
 
 const waLink = msg => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg || CONFIG.waGreeting)}`;
 document.querySelectorAll('[data-wa]').forEach(a => a.href = waLink(a.dataset.waMsg));
